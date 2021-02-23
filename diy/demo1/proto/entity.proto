@@ -13,3 +13,8 @@ message Response {
   string Msg = 2;
   google.protobuf.Any data = 3;
 }
+
+message AllTypes {
+  bytes date = 1;
+  map<string,string> mp = 2;
+}
